@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./tokidazikosyo_kai.css" />
+  </head>
+  <body>
+    <div class="contents-wrapper">
+      <h1 class="heading">常田隼成の自己紹介</h1>
+      <div class="contents-wrapper-inner">
+        <div class="content-left">
+          <img class="blog-image" src="./IMG_4367.jpeg">
+          <p class="profile">
+            名前　常田　隼成　(ときだ　しゅんせい)<br/>
+            生年月日 1998年2月4日<br/>
+            血液型 A型<br/>
+            出身地　長野
+          </p>
+        </div>
+        <div class="content-right">
+          <h2 class="news-heading">★★★　好きなこと　★★★</h2>
+          <div class="news-list">
+            <dl class="news-list-content">
+                <dt class="news-list-title">・日本酒</dt>
+                <dd class="news-list-description">
+                  おすすめの日本酒:風の森 <br/>
+                  油長酒造で作られているお酒  <br/>
+                　お米の味を生かした807シリーズが特におすすめ
+                              </dd>
+              </dl>
+            <dl class="news-list-content">
+                <dt class="news-list-title">・キングヘイロー(ウマ娘)</dt>
+                <dd class="news-list-description">
+                    --緑のメンコ、不屈の魂--<br/>
+                    高松宮記念にてG1勝利を飾った馬のウマ娘<br/>
+                    堂々としている姿がかっこいい、ただちょろい、かわいい
+                </dd>
+            <dl class="news-list-content">
+                <dt class="news-list-title">・豆腐</dt>
+                <dd class="news-list-description">
+                    おすすめ豆腐ランキング <br/>
+                    1位:ナチュラルとうふ<br/>
+                    2位:島豆腐<br/>
+                    3位:なめらかとうふ<br/>
+                    ぜひ、買ってみてください！
+                </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="content-count">
+          <p class = "text-count">ようこそ<span id="name">テスト</span>さん！
+          </p>
+          <script type="text/javascript" src="tokidazikosyo_lai.js"></script>
+          <input type="button" value="風の森が気になる方はここをクリック" onclick="clickBtn1()" />
+          <div id="p1"><img class="sake-image" src="./sake.jpg"></div>
+
+          <script>
+          //初期表示は非表示
+          document.getElementById("p1").style.display ="none";
+
+          function clickBtn1(){
+	        const p1 = document.getElementById("p1");
+
+	        if(p1.style.display=="block"){
+		      // noneで非表示
+		      p1.style.display ="none";
+	        }else{
+		      // blockで表示
+		      p1.style.display ="block";
+	         }
+          }
+           </script>
+           <input type="button" value="キングヘイローが気になる方はここをクリック" onclick="clickBtn2()" />
+           <div id="p2"><img class="king-image" src="./king.jpg"></div>
+
+           <script>
+           document.getElementById("p2").style.display ="none";
+
+           function clickBtn2(){
+           const p1 = document.getElementById("p2");
+
+           if(p2.style.display=="block"){
+           p2.style.display ="none";
+           }else{
+           p2.style.display ="block";
+            }
+           }
+            </script>
+
+            <input type="button" value="ナチュラルとうふが気になる方はここをクリック" onclick="clickBtn3()" />
+            <div id="p3"><img class="tohunatu-image" src="./food_tofu_kinu.png"></div>
+
+            <script>
+            document.getElementById("p3").style.display ="none";
+
+            function clickBtn3(){
+            const p3 = document.getElementById("p3");
+
+            if(p3.style.display=="block"){
+            p3.style.display ="none";
+            }else{
+            p3.style.display ="block";
+             }
+            }
+             </script>
+
+            <input type="button" value="島豆腐が気になる方はここをクリック" onclick="clickBtn4()" />
+            <div id="p4"><img class="simatohu-image" src="./food_toufu_sukugarasu.png"></div>
+
+            <script>
+            document.getElementById("p4").style.display ="none";
+
+            function clickBtn4(){
+            const p4 = document.getElementById("p4");
+
+            if(p4.style.display=="block"){
+            p4.style.display ="none";
+            }else{
+            p4.style.display ="block";
+             }
+            }
+
+             </script>
+
+            <input type="button" value="なめらかとうふが気になる方はここをクリック" onclick="clickBtn5()" />
+            <div id="p5"><img class="namerakatohu-image" src="./sweets_annindoufu_nokuko.png"></div>
+
+            <script>
+            document.getElementById("p5").style.display ="none";
+
+            function clickBtn5(){
+            const p5 = document.getElementById("p5");
+
+            if(p5.style.display=="block"){
+            p5.style.display ="none";
+            }else{
+            p5.style.display ="block";
+             }
+            }
+
+             </script>
+
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
