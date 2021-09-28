@@ -9,5 +9,6 @@
 
 最初のページは、自分の名前と写真があるものをpublicで載せるわけのはなんだかなぁ、と思ったためにつけたものです。
 
-#　URL
+# URL
 
+https://eg-tokida-shunsei.github.io/jikosyo-kai/
